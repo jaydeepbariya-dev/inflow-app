@@ -1,0 +1,85 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+out/
+*.log
+
+# Spring Boot
+application-*.properties
+application-*.yml
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Build
+build/
+.gradle/
+*.gradlebuild
+
+# Node/React
+node_modules/
+npm-debug.log
+yarn-error.log
+dist/
+build/
+.next/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Dependencies
+*.lock
+package-lock.json
+yarn.lock
+# React/Build artifacts
+.cache/
+.parcel-cache/
+dist/
+build/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+
+# OS backups
+*.bak
+*.backup
+
+# My notes
+notes.txt
